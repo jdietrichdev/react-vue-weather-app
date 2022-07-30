@@ -1,0 +1,16 @@
+{
+  "name": "react-vue-weather-app",
+  "version": "0.1.0",
+  "bin": {
+    "react-vue-weather-app": "bin/react-vue-weather-app.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "test": "jest",
+    "cdk": "cdk"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}
